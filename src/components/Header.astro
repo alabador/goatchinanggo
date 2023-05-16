@@ -2,19 +2,47 @@
 import logo from '../images/goatchinanggo-logo.png'
 ---
 
-<header class="header">
-    <div class="container">
-      <div class="logo">
+<header>
+    <div class="logo">
         <a href="/">
-          <img src={logo} alt="Goatchinanggo Logo" />
+            <img src={logo} alt="">
         </a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">Menu</a></li>
-          <li><a href="/blog">Contact Us</a></li>
-        </ul>
-      </nav>
     </div>
-  </header>
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: bisque;
+        padding: 0 1rem;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+
+    .nav-links li a{
+        text-decoration: none;
+        color: black;
+    }
+</style>
