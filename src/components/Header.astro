@@ -1,11 +1,16 @@
 ---
 import logo from '../images/goatchinanggo-logo.png'
+import logoSmall from '../images/logo-small.png'
 ---
 
 <header>
     <div class="logo">
         <a href="/">
-            <img src={logo} alt="">
+            <img 
+                src={logoSmall} 
+                
+                alt="goatchinanggo logo"
+            >
         </a>
     </div>
     <nav class="nav">
@@ -18,12 +23,17 @@ import logo from '../images/goatchinanggo-logo.png'
 </header>
 
 <style>
+    :root {
+        --primary: #ffdc74;
+    }
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: bisque;
-        padding: 0 1rem;
+        background-color: var(--primary);
+        height: 80px;
+        padding: 2rem;
+        gap: 2rem 1rem;
     }
 
     .logo {
@@ -31,8 +41,13 @@ import logo from '../images/goatchinanggo-logo.png'
         justify-content: center;
     }
 
+    .logo a {
+        display: inline-block;
+        width: 72px;
+    }
+
     .logo img {
-        width: 200px;
+        width: 100%;
     }
 
     .nav-links {

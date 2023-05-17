@@ -14,20 +14,20 @@ import interior from '../images/restaurant_interior.jpg'
 <style>
     .hero-section {
         min-height: 600px;
-        /* max-height: 600px; */
-        padding: 3rem;
-        display: block;
+        padding: 2rem;
+        display: inline-block;
     }
 
     .hero-title-container {
         display: flex;
         align-items: center;
-        /* background-color: bisque; */
+        padding-bottom: 2rem;
     }
 
     .hero-title {
         color: black;
         font-size: 2rem;
+        text-align: center;
     }
 
     .hero-image-container {
@@ -35,7 +35,7 @@ import interior from '../images/restaurant_interior.jpg'
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        /* height: 100%; */
+        height: 350px;
     }
 
     .hero-image {
@@ -47,6 +47,12 @@ import interior from '../images/restaurant_interior.jpg'
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 1rem;
+        }
+        .hero-title-container {
+            padding-bottom: 0;
+        }
+        .hero-image-container {
+            height: auto;
         }
     }
     
