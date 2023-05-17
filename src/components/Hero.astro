@@ -4,7 +4,8 @@ import interior from '../images/restaurant_interior.jpg'
 
 <section class="hero-section">
     <div class="hero-title-container">
-        <h1 class="hero-title">Goatchinanggo. <br> Not your typical restaurant.</h1>
+        <h1 class="hero-title">Goatchinanggo</h1>
+        <h2 class="hero-subtitle">Not your typical restaurant.</h2>
     </div>
     <div class="hero-image-container">
         <!-- <img class="hero-image" src={interior} alt="restaurant interior"> -->
@@ -16,10 +17,13 @@ import interior from '../images/restaurant_interior.jpg'
         min-height: 600px;
         padding: 2rem;
         display: inline-block;
+        width: 100%;
     }
 
     .hero-title-container {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         padding-bottom: 2rem;
     }
@@ -30,8 +34,13 @@ import interior from '../images/restaurant_interior.jpg'
         text-align: center;
     }
 
+    .hero-subtitle {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
     .hero-image-container {
-        background-image: url('../images/restaurant_interior.jpg');
+        background-image: url('../images/restaurant_exterior.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -53,6 +62,14 @@ import interior from '../images/restaurant_interior.jpg'
         }
         .hero-image-container {
             height: auto;
+        }
+    }
+    @media screen and (min-width: 600px) {
+        .hero-title {
+            font-size: 2.5rem;
+        }
+        .hero-subtitle {
+            font-size: 1.5rem;
         }
     }
     
