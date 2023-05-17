@@ -1,3 +1,9 @@
+:root {
+    --section-padding: 2rem;
+    --primary: #ffdc74;
+    --secondary: rgb(182, 89, 89);
+}
+
 * {
     font-family: 'Poppins';
     box-sizing: border-box;
