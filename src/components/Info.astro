@@ -1,3 +1,7 @@
+---
+import data from '../data/hours.json'
+import Hours from './subcomponents/Hours.astro'
+---
 
 <section class="info-section">
     <div class="location">
@@ -6,7 +10,9 @@
     <div class="hours">
         <h2>BUSINESS HOURS</h2>
         <div class="hours-container">
-            
+            {data.map((open,i) => {
+                return <Hours day={open.day} hours={open.hours}/>
+            })}
         </div>
     </div>
 </section>
@@ -18,17 +24,36 @@
     .location {
         padding: var(--section-padding);
     }
-    .hours::before {
-        content: "___"
-    }
     .hours {
         padding: var(--section-padding);
         color: white;
+    }
+    .hours h2 {
+        padding-bottom: 1rem;
+    }
+    /* .hours-container::before {
+        content: "___"
+    } */
+    .hours-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+
     }
     @media screen and (min-width: 900px) {
         .info-section {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+        }
+        .hours h2 {
+            padding-bottom: 0;
+            font-size: 1.8rem;
+        }
+        .hours-container {
+            justify-content: center;
+            height: 90%;
+            gap: 1rem;
         }
     }
 </style>

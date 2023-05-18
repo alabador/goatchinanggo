@@ -1,0 +1,24 @@
+---
+export interface Props {
+    day: string;
+    hours: string;
+}
+
+const {day, hours} = Astro.props as Props;
+---
+
+
+<div class="open-hours">
+    <p class="day">{day}</p>
+    <p class="hours">{hours}</p>
+</div>
+
+<style>
+    .open-hours {
+        display: flex;
+        justify-content: space-between;
+    }
+    .day, .hours {
+        font-size: 1.2rem;
+    }
+</style>
