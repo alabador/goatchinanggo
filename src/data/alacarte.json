@@ -1,0 +1,66 @@
+[
+  {
+    "Item": "Calderetang Kambing",
+    "Price": 180
+  },
+  {
+    "Item": "Adobong Kambing",
+    "Price": 180
+  },
+  {
+    "Item": "Papaitan Kambing",
+    "Price": 160
+  },
+  {
+    "Item": "",
+    "Price": ""
+  },
+  {
+    "Item": "Beef Bulalo",
+    "Price": 160
+  },
+  {
+    "Item": "",
+    "Price": ""
+  },
+  {
+    "Item": "Lechon Kawali (M)",
+    "Price": 150
+  },
+  {
+    "Item": "Lechon Kawali (L)",
+    "Price": 250
+  },
+  {
+    "Item": "",
+    "Price": ""
+  },
+  {
+    "Item": "Fried Chicken Whole",
+    "Price": 200
+  },
+  {
+    "Item": "Chicken Apritada",
+    "Price": 120
+  },
+  {
+    "Item": "Chicken Adobo",
+    "Price": 110
+  },
+  {
+    "Item": "Spicy Chicken Wings",
+    "Price": 90
+  },
+  {
+    "Item": "",
+    "Price": ""
+  },
+  {
+    "Item": "Sweet & Sour Pork",
+    "Price": 160
+  },
+  {
+    "Item": "Pork Sisig",
+    "Price": 160
+  }
+]

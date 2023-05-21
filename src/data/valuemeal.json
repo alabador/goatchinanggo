@@ -1,0 +1,158 @@
+[
+  {
+    "Item": "Bangus",
+    "Price": 30
+  },
+  {
+    "Item": "Beef Broccoli",
+    "Price": 55
+  },
+  {
+    "Item": "Beef Caldereta",
+    "Price": 55
+  },
+  {
+    "Item": "Beef w/ Mushroom Sauce",
+    "Price": 55
+  },
+  {
+    "Item": "Bicol Express",
+    "Price": 40
+  },
+  {
+    "Item": "Buttered Chicken",
+    "Price": 40
+  },
+  {
+    "Item": "Chicken Adobo",
+    "Price": 40
+  },
+  {
+    "Item": "Chicken Apritada",
+    "Price": 40
+  },
+  {
+    "Item": "Chicken Curry",
+    "Price": 45
+  },
+  {
+    "Item": "Chop Suey",
+    "Price": 30
+  },
+  {
+    "Item": "Chicken Pineapple",
+    "Price": 45
+  },
+  {
+    "Item": "Egg",
+    "Price": 15
+  },
+  {
+    "Item": "Eggplant",
+    "Price": 25
+  },
+  {
+    "Item": "Fried Chicken Wing",
+    "Price": 30
+  },
+  {
+    "Item": "Fried Chicken",
+    "Price": 40
+  },
+  {
+    "Item": "Fried Fish",
+    "Price": 25
+  },
+  {
+    "Item": "Ginataang Paksiw Tuna",
+    "Price": 40
+  },
+  {
+    "Item": "Ginataang Kalatasa",
+    "Price": 25
+  },
+  {
+    "Item": "Gising Gising",
+    "Price": 25
+  },
+  {
+    "Item": "Humba",
+    "Price": 45
+  },
+  {
+    "Item": "Laing",
+    "Price": 40
+  },
+  {
+    "Item": "Longanisa",
+    "Price": 15
+  },
+  {
+    "Item": "Pancit Bihon",
+    "Price": 15
+  },
+  {
+    "Item": "Pancit Canton",
+    "Price": 20
+  },
+  {
+    "Item": "Pinakbet",
+    "Price": 25
+  },
+  {
+    "Item": "Paksiw Tuna",
+    "Price": 40
+  },
+  {
+    "Item": "Pork Chop",
+    "Price": 35
+  },
+  {
+    "Item": "Pakbet",
+    "Price": 25
+  },
+  {
+    "Item": "Sinigang (Crispy)",
+    "Price": 40
+  },
+  {
+    "Item": "Sinigang Isda (Bangus)",
+    "Price": 40
+  },
+  {
+    "Item": "Sweet & Sour Pork",
+    "Price": 45
+  },
+  {
+    "Item": "Sweet & Sour Rib",
+    "Price": 45
+  },
+  {
+    "Item": "Sinigang Ribs",
+    "Price": 40
+  },
+  {
+    "Item": "Tapa",
+    "Price": 45
+  },
+  {
+    "Item": "Tortang Hipon",
+    "Price": 25
+  },
+  {
+    "Item": "Tortang Talong",
+    "Price": 25
+  },
+  {
+    "Item": "Tinolang Manok",
+    "Price": 45
+  },
+  {
+    "Item": "Nilagang Baka",
+    "Price": 55
+  },
+  {
+    "Item": "Nilagang Beef",
+    "Price": 55
+  }
+]
