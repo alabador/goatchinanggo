@@ -12,16 +12,8 @@
     "Price": 160
   },
   {
-    "Item": "",
-    "Price": ""
-  },
-  {
     "Item": "Beef Bulalo",
     "Price": 160
-  },
-  {
-    "Item": "",
-    "Price": ""
   },
   {
     "Item": "Lechon Kawali (M)",
@@ -30,10 +22,6 @@
   {
     "Item": "Lechon Kawali (L)",
     "Price": 250
-  },
-  {
-    "Item": "",
-    "Price": ""
   },
   {
     "Item": "Fried Chicken Whole",
@@ -50,10 +38,6 @@
   {
     "Item": "Spicy Chicken Wings",
     "Price": 90
-  },
-  {
-    "Item": "",
-    "Price": ""
   },
   {
     "Item": "Sweet & Sour Pork",

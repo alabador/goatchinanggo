@@ -1,24 +1,38 @@
 ---
 import alacarteData from "../data/alacarte.json"
 import valuemealData from "../data/valuemeal.json"
+import MenuItem from "../components/subcomponents/MenuItem.astro"
 ---
 
 <section class="menu-section">
+    <h2>A La Carte</h2>
     <div class="value-menu">
 
     </div>
     <div class="alacarte-menu">
+        {alacarteData.map((item, index) => {
+            return <MenuItem food={item.Item} price={item.Price}/>
+        })}
 
     </div>
 </section>
 
 <style>
     .menu-section {
-        
+        padding: var(--section-padding);
+    }
+    .menu-title {
+        font-
     }
     .value-menu,.alacarte-menu{
-        display: flex;
-        justify-content: space-between;
+        
+    }
+
+    @media screen and (min-width: 900px) {
+        .menu-section h2 {
+            padding-bottom: 0;
+            font-size: 2rem;
+        }
     }
 
 </style>

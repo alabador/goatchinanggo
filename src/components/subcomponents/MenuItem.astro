@@ -1,0 +1,23 @@
+---
+export interface Props {
+    food: string;
+    price: number;
+}
+
+const {food, price} = Astro.props as Props;
+---
+
+<div class="menu-item">
+    <p class="food">{food}</p>
+    <p class="price">{price}</p>
+</div>
+
+<style>
+    .menu-item {
+        display: flex;
+        justify-content: space-between;
+    }
+    .food, .price {
+        font-size: 1rem;
+    }
+</style>
