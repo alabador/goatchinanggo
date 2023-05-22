@@ -1,0 +1,49 @@
+---
+import logo from '../images/goatchinanggo-logo.png'
+import logoSmall from '../images/logo-small.png'
+---
+
+<footer>
+    <div class="logo">
+        <a href="/">
+            <img 
+                src={logo} 
+                
+                alt="goatchinanggo logo"
+            >
+        </a>
+    </div>
+    <p>Established 2023</p>
+</footer>
+
+<style>
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary);
+        /* height: 80px; */
+        padding: 1rem;
+    }
+
+    footer p {
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo a {
+        display: inline-block;
+        width: 200px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+</style>
